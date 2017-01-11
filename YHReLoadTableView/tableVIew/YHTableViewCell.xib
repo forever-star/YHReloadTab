@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="109" id="ik2-GE-Ahq" customClass="YHTableViewCell" customModule="YHReLoadTableView" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="109"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ik2-GE-Ahq" id="wfd-Yi-FjV">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="108.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="哈几号放假哎回复就爱上房间卡好舒服发货快哈几号放假哎回复就爱上房间卡好舒服发货快哈几号放假哎回复就爱上房间卡好舒服发货快" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VJF-cM-BPc">
+                        <rect key="frame" x="16" y="16" width="343" height="47"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KeG-Sr-sBg">
+                        <rect key="frame" x="16" y="71" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="KeG-Sr-sBg" secondAttribute="bottom" constant="8.5" id="2IW-Hi-80j"/>
+                    <constraint firstItem="VJF-cM-BPc" firstAttribute="top" secondItem="wfd-Yi-FjV" secondAttribute="topMargin" constant="8" id="8gy-VK-gWz"/>
+                    <constraint firstItem="VJF-cM-BPc" firstAttribute="leading" secondItem="wfd-Yi-FjV" secondAttribute="leadingMargin" constant="8" id="Oj1-mL-cBq"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="VJF-cM-BPc" secondAttribute="trailing" constant="8" id="Y8K-RB-LMo"/>
+                    <constraint firstItem="KeG-Sr-sBg" firstAttribute="leading" secondItem="wfd-Yi-FjV" secondAttribute="leadingMargin" constant="8" id="cOu-vY-OU4"/>
+                    <constraint firstItem="KeG-Sr-sBg" firstAttribute="top" secondItem="VJF-cM-BPc" secondAttribute="bottom" constant="8" id="y0n-Id-1xt"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="numberLable" destination="KeG-Sr-sBg" id="neo-pc-OsT"/>
+                <outlet property="titleLable" destination="VJF-cM-BPc" id="Gge-Yx-FeH"/>
+            </connections>
+            <point key="canvasLocation" x="25.5" y="-89.5"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "EE57BEA505C2226DCBBADC805116DBAB543C877B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E15B3F6FE7D965E4204DF96B55684CC6875B90D2" : 9223372036854775807,
+    "EE57BEA505C2226DCBBADC805116DBAB543C877B" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5DFE76EC-9B0F-4B6C-BF5B-F5807EAFD65C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E15B3F6FE7D965E4204DF96B55684CC6875B90D2" : "",
+    "EE57BEA505C2226DCBBADC805116DBAB543C877B" : "YHReloadTab\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "YHReLoadTableView",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "YHReLoadTableView.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/forever-star\/YHReLoadTableView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E15B3F6FE7D965E4204DF96B55684CC6875B90D2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/forever-star\/YHReloadTab.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EE57BEA505C2226DCBBADC805116DBAB543C877B"
+    }
+  ]
+}

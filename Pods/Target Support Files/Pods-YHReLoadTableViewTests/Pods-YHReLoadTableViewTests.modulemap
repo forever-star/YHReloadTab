@@ -1,0 +1,6 @@
+framework module Pods_YHReLoadTableViewTests {
+  umbrella header "Pods-YHReLoadTableViewTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
